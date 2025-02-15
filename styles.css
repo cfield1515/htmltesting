@@ -1,0 +1,42 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #F4F4F4;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+/* Logo section */
+.logo img {
+    height: 30px;
+}
+
+/* Search bar section */
+.search-bar input {
+    width: 400px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #D1D1D1;
+}
+
+/* User profile section */
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
